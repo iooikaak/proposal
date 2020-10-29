@@ -1,0 +1,2 @@
+# proposal
+Kratos Proposal
