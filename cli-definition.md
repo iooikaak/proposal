@@ -19,7 +19,7 @@ Available Commands:
   init        使用项目模板初始化kratos项目骨架
   help        帮助
   run         运行项目
-  
+
 Flags:
   -h, --help   help for kratos
 
@@ -44,8 +44,6 @@ Use "kratos [command] --help" for more information about a command.
 kratos create [service/job/some_kind_of_module] foo
 ```
 
-
-
 ### gen
 
 读取proto文件生成项目代码
@@ -56,11 +54,9 @@ kratos gen proto api/*.proto
 
 ### init
 
-从仓库clone一个模板下来用于项目初始化，go-kratos组织下名称为`template-`开头的仓库为项目模板，默认使用`template-standard`，可以设置flag改变要clone的模板仓库
+使用模板初始化项目骨架，可以加参数更换模板
 
-
-
-### Flags
+#### Flags
 
 * --template -T <standard/simple/blahblah>  或一个合法的git仓库地址，用于设置模板使用什么模板
 
@@ -71,5 +67,3 @@ kratos gen proto api/*.proto
 ### run
 
 封装go run命令
-
-
